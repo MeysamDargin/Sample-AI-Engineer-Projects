@@ -10,7 +10,7 @@ from langchain.agents import initialize_agent
 from langchain.agents import AgentType
 
 # Set Hugging Face API token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HUGGINGFACEHUB API TOKEN"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 # Initialize LLM model with HuggingFaceEndpoint
 llm = HuggingFaceEndpoint(
