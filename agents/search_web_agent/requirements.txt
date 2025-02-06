@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+asyncio
+nest_asyncio
+langchain
+langchain-community
+langchain-huggingface
+playwright
+langchain-agents

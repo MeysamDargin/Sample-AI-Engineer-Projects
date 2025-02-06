@@ -1,0 +1,6 @@
+pymysql
+sqlalchemy
+langchain
+langchain-community
+langchain-huggingface
+

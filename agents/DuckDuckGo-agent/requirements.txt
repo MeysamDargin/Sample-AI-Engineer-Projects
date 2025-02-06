@@ -1,0 +1,5 @@
+langchain
+huggingface_hub
+langchain_community
+duckduckgo-search
+langchain-huggingface
