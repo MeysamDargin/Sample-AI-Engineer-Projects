@@ -49,7 +49,7 @@ toolkit = PlayWrightBrowserToolkit.from_browser(async_browser=async_browser)
 playwright_tools = toolkit.get_tools()  # Retrieve Playwright tools
 
 # Set up language model (LLM)
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HUGGINGFACEHUB API TOKEN"
 llm = HuggingFaceEndpoint(
     repo_id="Qwen/Qwen2.5-72B-Instruct",
     task="text-generation",

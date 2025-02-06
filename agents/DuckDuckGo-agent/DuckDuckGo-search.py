@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.tools import Tool
 
 # 🚀 Setting Hugging Face API Token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HUGGINGFACEHUB API TOKEN"
 
 # 🎯 Initializing LLM Model from Hugging Face
 llm = HuggingFaceEndpoint(
